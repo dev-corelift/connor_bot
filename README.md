@@ -161,7 +161,7 @@ sequenceDiagram
    - A TTS backend (e.g., `espeak` on Linux, SAPI voices on Windows)
    - Optional: GPU or CPU that supports `faster-whisper` (defaults to CPU int8)
 
-3. **Configure environment** via `.env` (example):
+3. **Configure environment** via the provided `.env` (copy/modify as needed):
    ```
    DISCORD_TOKEN=your_bot_token
    OPENAI_API_KEY=sk-...
@@ -176,9 +176,9 @@ sequenceDiagram
    WHISPER_MODEL=small
    ```
 
-4. **Run the bot**:
+4. **Run the bot** (after adjusting the included `.env`):
    ```bash
-   python3 conner.py
+   python3 connor.py
    ```
 
 ---

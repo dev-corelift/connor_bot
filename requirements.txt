@@ -1,0 +1,16 @@
+# Core Discord bot runtime
+discord.py>=2.3.2
+aiohttp>=3.8.6
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# LLM and AI integrations
+openai>=1.3.0
+faster-whisper>=0.10.0
+
+# Media handling
+pyttsx3>=2.90
+Pillow>=10.1.0
+yt-dlp>=2023.11.16
+
+# Optional: install ffmpeg separately via your OS package manager
